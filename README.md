@@ -14,12 +14,17 @@
 It provides tools for parallel corpus filtering.
 
 ## Requirements
+ * `PowerShell 7`
  * `Python 3`
  * `PIP 3`
 
 ## Usage
 ### Run
 ```bash
+# Create a venv and activate it.
+python -m venv venv
+./venv/Scripts/Activate.ps1
+
 # Install dependencies and run the app.
 pip install -r requirements.txt
 python ./main.py <ARGUMENTS>
